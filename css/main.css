@@ -1,0 +1,36 @@
+*{
+    background-color: rgb(129, 129, 129);
+    color: black;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.cuerpo{
+    display: grid;
+    grid-template-columns: 400px auto;
+    grid-column-gap: 35px;
+}
+
+.artoriasp{
+    max-width: 100%;
+}
+
+.navBar{
+    display: grid;
+    font-size: 22px;
+}
+
+.navBar li:hover{
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.navBar ul{
+    list-style: none;
+    
+}
+
+.navBar li{
+    display: inline;
+    float: right;
+}
