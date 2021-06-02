@@ -5,10 +5,16 @@
     font-size: 15px;
 }
 
+.Logo{
+    display: grid;
+    font-size: 40px;
+}
+
 .cuerpo{
     display: grid;
     grid-template-columns: 400px auto;
     grid-column-gap: 35px;
+    text-align: justify;
 }
 
 .artoriasp{
@@ -17,7 +23,6 @@
 
 .navBar{
     display: grid;
-    font-size: 22px;
 }
 
 .navBar li:hover{
@@ -33,4 +38,33 @@
 .navBar li{
     display: inline;
     float: right;
+    font-size: 20px;
+}
+
+.Boton1{
+    color:rgb(39, 39, 39);
+    background-color: rgb(92, 92, 92);
+    font-size: 30px;
+    text-align:center;
+    margin-left: 200px;
+    margin-top: 80px;
+    border: solid 3px rgb(184, 184, 184);
+    border-radius: 10px;
+}
+.Boton1:hover{
+    background-color:rgb(184, 184, 184);
+}
+
+.Boton2{
+    color:rgb(39, 39, 39);
+    background-color: rgb(92, 92, 92);
+    font-size: 30px;
+    text-align:center;
+    margin-left: 70px;
+    margin-top: 80px;
+    border: solid 3px rgb(184, 184, 184);
+    border-radius: 10px;
+}
+.Boton2:hover{
+    background-color:rgb(184, 184, 184);
 }
